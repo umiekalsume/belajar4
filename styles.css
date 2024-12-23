@@ -1,0 +1,145 @@
+/* Reset beberapa default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set gaya umum untuk body */
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f0f8ff; /* Warna pastel biru */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: #ffcccb; /* Warna pastel merah muda */
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo-container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Main Section */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 40px;
+}
+
+/* Profil Sekolah */
+#profile {
+    background-color: #e6e6fa; /* Warna pastel ungu muda */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#profile h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#profile p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Kegiatan Sekolah */
+#activities {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #fffaf0; /* Warna pastel kuning muda */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#activities h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#activities ul {
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+
+#activities ul li {
+    margin: 10px 0;
+}
+
+/* Kontak */
+#contact {
+    margin-top: 40px;
+    padding: 40px;
+    background-color: #ffebcd; /* Warna pastel beige */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
