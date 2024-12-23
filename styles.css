@@ -1,63 +1,37 @@
-/* Reset beberapa default styling */
-* {
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-/* Set gaya umum untuk body */
-body {
-    font-family: 'Times New Roman', serif;
-    background-color: #f0f8ff; /* Warna pastel biru */
-    color: #333;
-    line-height: 1.6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
-}
-
-/* Header */
 header {
-    background-color: #ffcccb; /* Warna pastel merah muda */
-    text-align: center;
-    width: 100%;
-    padding: 20px 0;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
 }
 
 .logo-container {
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
-    max-width: 150px;
+    max-width: 100px;
     height: auto;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
+    margin: 0;
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    gap: 15px;
 }
 
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: #333;
+nav a {
     text-decoration: none;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-    background-color: #4CAF50;
-    color: white;
+    color: #333;
 }
 
 /* Main Section */
