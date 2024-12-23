@@ -24,7 +24,7 @@ header {
     background-color: #ffcccb; /* Warna pastel merah muda */
     padding: 20px;
     text-align: center;
-    width: 100%;
+    width: 80%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -111,7 +111,7 @@ main {
 #activities ul {
     list-style-type: none;
     font-size: 1.2rem;
-    text-align: left;
+    text-align: center;
 }
 
 #activities ul li {
